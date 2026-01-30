@@ -1,76 +1,97 @@
-# DentaVault / Dentify - Dental Clinic Management System
+# DentaVault: "Simplifying Smiles, Streamlining Practice" 🦷🏥
 
-**DentaVault (Dentify)** is a comprehensive desktop application designed to streamline administrative tasks for dental clinics. It provides a secure environment for managing patient records, appointments, treatments, and prescriptions, ensuring an efficient workflow for dental practitioners and staff.
+![Platform](https://img.shields.io/badge/Platform-Desktop-3DDC84?style=flat&logo=windows)
+![Language](https://img.shields.io/badge/Language-Java-ED8B00?style=flat&logo=java)
+![Database](https://img.shields.io/badge/Database-MySQL-005C84?style=flat&logo=mysql)
+![Status](https://img.shields.io/badge/Status-Capstone%20Project-blue)
 
-## 📸 Screenshots
-
-*(You can insert the images you uploaded here in your repository)*
-## ✨ Key Features
-
-### 1. Secure Authentication (DentaVault)
-* **Login System:** A secure entry point requiring a valid username and password to access the system.
-* **User Protection:** Ensures patient data is only accessible by authorized personnel.
-
-### 2. Patient Management Dashboard
-The "Patient Info" module serves as the central hub for patient data:
-* **Personal Information:** Capture essential details including First Name, Last Name, and Gender.
-* **Date of Birth:** Integrated calendar/date-picker for accurate DOB entry.
-* **Contact Details:** Fields for standard Contact Numbers and Emergency Contacts.
-* **Address:** Full address logging (House/Building No., Street, Barangay, City, Province).
-
-### 3. Prescriptions Management
-The "Prescriptions Info" module ensures accurate medication tracking:
-* **Link Records:** Associate prescriptions directly with specific **Appointments** and **Treatments**.
-* **Medication Details:** Record Medicine names and Quantities.
-* **Cost Tracking:** Input prescription costs (PHP) for financial records.
-* **Prescriptions List:** View a scrollable history of issued prescriptions.
-
-### 4. CRUD Functionality
-Manage your database with ease using dedicated action buttons across all modules:
-* **Insert:** Add new records (Patients, Prescriptions) to the database instantly.
-* **Update:** Edit existing details.
-* **Delete:** Remove obsolete records.
-* **Lists:** Dedicated viewing areas to browse registries of current patients and prescriptions.
-
-### 5. Navigation Modules
-The application features a sidebar for quick access to other clinic functions:
-* 📋 **Patient Info**
-* 🦷 **Treatments**
-* 📆 **Appointments**
-* 📝 **Prescriptions**
-* 🏥 **Patient Visits**
-* 🚪 **Logout**
+> **Comprehensive Desktop Dental Clinic Management System**
 
 ---
 
-## 🚀 How to Use
-
-1.  **Launch the Application:** Start the program to see the **DentaVault** login screen.
-2.  **Log In:** Enter your administrator credentials.
-3.  **Add a Patient:**
-    * Navigate to the **Patient Info** tab on the left sidebar.
-    * Fill in the text fields (Name, DOB, Contact, Address).
-    * Click the **INSERT A NEW PATIENT** button.
-4.  **Issue a Prescription:**
-    * Navigate to the **Prescriptions** tab.
-    * Select the Appointment and Treatment from the dropdowns.
-    * Enter Medicine, Quantity, and Cost.
-    * Click **INSERT A NEW PRESCRIPTION**.
-5.  **Manage Records:**
-    * Select an item from the **Patient List** or **Prescriptions List** (bottom panel).
-    * Modify details and click **UPDATE** to save changes.
-    * Click **DELETE** to remove the record.
-6.  **Exit:** Click the **Logout** button in the bottom left corner to return to the login screen securely.
+## 📋 Table of Contents
+- [Overview](#-overview)
+- [Key Features](#-key-features)
+- [How It Works](#-how-it-works)
+- [Tech Stack](#-tech-stack)
+- [Screenshots](#-screenshots)
+- [Authors](#-authors)
 
 ---
 
-## 🛠️ Requirements
+## 📖 Overview
+**DentaVault (Dentify)** is a robust desktop application designed to digitize administrative tasks for dental clinics.
 
-* **OS:** Windows / macOS / Linux (depending on build)
-* **Resolution:** Optimized for standard desktop resolutions.
+Traditional paper-based clinic management often leads to lost records, disorganized scheduling, and inventory errors. **DentaVault** solves this by providing a secure environment for **patient record keeping**, **appointment scheduling**, **treatment tracking**, and **prescription management**—all within a unified interface.
+
+From secure staff login to detailed patient history logging, DentaVault ensures that dental practitioners can focus on patient care rather than paperwork.
 
 ---
 
-## 👤 Authors
+## 🌟 Key Features
 
-* **[Joshua Alnie Rio]**
+### 🏥 For Administration (Dentify)
+| Feature | Description |
+| :--- | :--- |
+| **📋 Patient Management** | centralized hub to capture **Demographics**, **Dates of Birth**, and **Contact Info**. |
+| **📍 Address Logging** | Detailed fields for House No, Street, Barangay, City, and Province. |
+| **💊 Prescription Module** | Smart linking of **Medicines** and **Quantities** to specific **Appointments** and **Treatments**. |
+| **💰 Cost Tracking** | Integrated financial fields to track the cost of treatments and issued prescriptions (PHP). |
+| **🔄 Full CRUD** | Dedicated buttons to **Insert**, **Update**, and **Delete** records instantly. |
+| **🔍 Digital Registry** | Scrollable list views for both Patients and Prescriptions for quick data retrieval. |
+
+### 🔐 Security & Access (DentaVault)
+* **🛡️ Secure Gatekeeper:** A dedicated login portal ("DentaVault") protecting sensitive medical data.
+* **🔑 Session Control:** Secure logout functionality to prevent unauthorized access.
+* **👤 User Protection:** Ensures patient data is only accessible by verified administrators.
+
+---
+
+## 🔄 How It Works
+1.  **Authentication:** The administrator logs in via the DentaVault secure screen.
+2.  **Registration:** New patient details are entered into the "Patient Info" dashboard.
+3.  **Treatment:** The dentist records the treatment and generates a linked **Prescription**.
+4.  **Database:** Clicking "Insert" or "Update" instantly saves the data to the secure database.
+5.  **Retrieval:** Records can be viewed, modified, or deleted via the list panels at any time.
+
+---
+
+## 🏗️ Tech Stack
+
+This project follows a **Desktop Application** architecture with a local SQL database.
+
+| Category | Technologies |
+| :--- | :--- |
+| **Frontend** | Windows Forms (WinForms) |
+| **Logic** | C# (Object-Oriented Logic) |
+| **Database** | Microsoft SQL Server (Relational Data Storage) |
+| **Design** | FlatLaf (Modern UI Look & Feel) |
+| **IDE** | Microsoft Visual Studio |
+
+---
+
+## 📱 Screenshots
+
+| Secure Login | Patient Dashboard | Prescription Mgmt |
+|:---:|:---:|:---:|
+| <img src="<img width="386" height="423" alt="image" src="https://github.com/user-attachments/assets/4d27dcf6-7084-4646-b2f8-acc74c3ae5e8" />
+" width="250"> | <img src="<img width="945" height="756" alt="image" src="https://github.com/user-attachments/assets/3f8cbdde-e116-4745-a684-e3e6847b6493" />
+" width="250"> | <img src="<img width="947" height="755" alt="image" src="https://github.com/user-attachments/assets/ad6c7fa8-8985-4e97-97b4-7c4b28181928" />
+" width="250"> |
+| *DentaVault Entry* | *Patient Information* | *Rx & Costs* |
+
+---
+
+### Prerequisites
+* Microsoft Visual Studio (2019 or later)
+* .NET Framework
+* SQL Server Management Studio (SSMS)
+
+## 👥 Authors
+
+* **Joshua Alnie Rio** - *Developer*
+---
+
+## 📄 License
+This project is a Performance Task Project submitted to **STI College Tanauan**.
+*Developed as part of the Bachelor of Science in Information Technology program (2026).*
