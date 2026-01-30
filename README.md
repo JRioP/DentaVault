@@ -91,4 +91,4 @@ This project follows a **Desktop Application** architecture with a local SQL dat
 
 ## 📄 License
 This project is a Performance Task Project submitted to **STI College Tanauan**.
-*Developed as part of the Bachelor of Science in Information Technology program (2026).*
+*Developed as part of the Bachelor of Science in Information Technology program (2024).*
