@@ -1,8 +1,8 @@
 # DentaVault: "Simplifying Smiles, Streamlining Practice" 🦷🏥
 
-![Platform](https://img.shields.io/badge/Platform-Desktop-3DDC84?style=flat&logo=windows)
-![Language](https://img.shields.io/badge/Language-Java-ED8B00?style=flat&logo=java)
-![Database](https://img.shields.io/badge/Database-MySQL-005C84?style=flat&logo=mysql)
+![Platform](https://img.shields.io/badge/Platform-Desktop-blue?style=flat&logo=windows)
+![Language](https://img.shields.io/badge/Language-C%23-239120?style=flat&logo=c-sharp)
+![IDE](https://img.shields.io/badge/IDE-Visual%20Studio-5C2D91?style=flat&logo=visual-studio)
 ![Status](https://img.shields.io/badge/Status-Capstone%20Project-blue)
 
 > **Comprehensive Desktop Dental Clinic Management System**
