@@ -3,7 +3,7 @@
 ![Platform](https://img.shields.io/badge/Platform-Desktop-blue?style=flat&logo=windows)
 ![Language](https://img.shields.io/badge/Language-C%23-239120?style=flat&logo=c-sharp)
 ![IDE](https://img.shields.io/badge/IDE-Visual%20Studio-5C2D91?style=flat&logo=visual-studio)
-![Status](https://img.shields.io/badge/Status-Capstone%20Project-blue)
+![Status](https://img.shields.io/badge/Status-PerformanceTask%20Project-blue)
 
 > **Comprehensive Desktop Dental Clinic Management System**
 
