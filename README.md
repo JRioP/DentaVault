@@ -74,10 +74,9 @@ This project follows a **Desktop Application** architecture with a local SQL dat
 
 | Secure Login | Patient Dashboard | Prescription Mgmt |
 |:---:|:---:|:---:|
-| <img src="<img width="386" height="423" alt="image" src="https://github.com/user-attachments/assets/4d27dcf6-7084-4646-b2f8-acc74c3ae5e8" />
-" width="250"> | <img src="<img width="945" height="756" alt="image" src="https://github.com/user-attachments/assets/3f8cbdde-e116-4745-a684-e3e6847b6493" />
-" width="250"> | <img src="<img width="947" height="755" alt="image" src="https://github.com/user-attachments/assets/ad6c7fa8-8985-4e97-97b4-7c4b28181928" />
-" width="250"> |
+| Secure Login | Patient Dashboard | Prescription Mgmt |
+|:---:|:---:|:---:|
+| <img src="https://github.com/user-attachments/assets/4d27dcf6-7084-4646-b2f8-acc74c3ae5e8" width="250" alt="DentaVault Login"> | <img src="https://github.com/user-attachments/assets/3f8cbdde-e116-4745-a684-e3e6847b6493" width="250" alt="Patient Dashboard"> | <img src="https://github.com/user-attachments/assets/ad6c7fa8-8985-4e97-97b4-7c4b28181928" width="250" alt="Prescription Management"> |
 | *DentaVault Entry* | *Patient Information* | *Rx & Costs* |
 
 ---
